@@ -19,7 +19,7 @@ function car(manufacturer, model , color , year) {
     return carobject;
 }}
 ;
-var string01 = car("honda");
+var string01 = car("honda","city");
 var string02 = car("tpyota","land cruiser ","black");
 var string03 = car("kia","sportage","white","2024");
 console.log(string01);
