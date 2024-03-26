@@ -1,14 +1,14 @@
 {
-  "name": "adnan_khan_project01_number_guessing-game",
+  "name": "adnan_khan_project02_atm",
   "version": "1.0.0",
-  "description": "guessing game",
+  "description": "",
   "main": "index.js",
   "type": "module",
   "bin": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Adnan Khan",
+  "author": "Adnan Khna",
   "license": "MIT",
   "dependencies": {
     "inquirer": "^9.2.16"
