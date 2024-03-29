@@ -24,7 +24,7 @@ if (pinans.pin === mypin) {
                 message: "enter amount",
                 type: "number"
             }]);
-        if (amount.amount <= 10000) {
+        if (amount.amount <= mybal) {
             mybal -= amount.amount;
             console.log(`now your balance is ${mybal}`);
         }
