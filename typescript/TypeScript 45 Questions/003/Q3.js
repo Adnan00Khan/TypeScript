@@ -4,10 +4,11 @@ var Person2 = "M adNan khAn";
 console.log(Person2.toUpperCase());
 console.log(Person2.toLowerCase());
 function convertToTitleCase(str) {
-    if (!str) {
-        return "";
+    str = str.toLowerCase();
+    var newstr = str.split(" ");
+    for (var i = 0; i < newstr.length; i++) {
+        newstr[i] = newstr[i].charAt(0).toUpperCase() + newstr[i].slice(1);
     }
-    return str.toLowerCase().replace(/\b\w/g, function (s) { return s.toUpperCase(); });
+    return newstr.join(" ");
 }
-;
 console.log(convertToTitleCase(Person2));
